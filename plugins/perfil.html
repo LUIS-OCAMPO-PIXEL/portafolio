@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+  <!-- Google Web Fonts
+  ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800" rel="stylesheet"> -->
+
+  <!-- Basic Page Needs
+  ================================================== -->
+
+  <title>NWBox</title>
+
+  <meta name="format-detection" content="telephone=no" />
+  <meta charset="utf-8">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!--meta info-->
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!-- Vendor CSS
+  ============================================ -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="font/demo-files/demo.css">
+  <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+  <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+  <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+
+
+
+  <!-- CSS theme files
+  ============================================ -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/vue-select@3.1.0/dist/vue-select.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+</head>
+
+<body class="wide-layout">
+
+  <div class="loader"></div>
+
+  <!--cookies-->
+  <!-- <div class="cookies">
+          <div class="container">
+            <div class="clearfix">
+              <span>Please note this website requires cookies in order to function correctly, they do not store any specific information about you personally.</span>
+              <div class="f-right"><a href="#" class="btn btn-small btn-style-2">Accept Cookies</a><a href="#" class="btn btn-small btn-style-4">Read More</a></div>
+            </div>
+          </div>
+        </div>  -->
+
+  <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+  <div id="wrapper" class="wrapper-container">
+
+    <!-- - - - - - - - - - - - - Menu Mobile - - - - - - - - - - - - - - -->
+
+    <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+    <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - -->
+
+    <header id="header" class="header-3">
+
+      <!--search form-->
+      <!--<div class="searchform-wrap">
+        <div class="vc-child h-inherit">
+          <form>
+            <input type="text" name="search" placeholder="Start typing...">
+            <button type="button"></button>
+          </form>
+
+        </div>
+      </div>-->
+
+      <!-- top-bar -->
+
+      <div class="top-bar">
+
+        <div class="container">
+
+          <div class="table-row">
+
+            <div class="col-sm-6">
+              <ul class="contact-info">
+                <li><span style="color: #E46827;font-size: 18px;" class="licon-telephone"></span> <a
+                    style="color: #fff;" href="callto:+573165457673">+57 324 357 7813</a></li>
+                <li><span style="color: #E46827; font-size: 18px;" class="licon-at-sign"></span> <a style="color: #fff;"
+                    href="mailto:comercial@nwbox.co">comercial@nwbox.co</a></li>
+                <li>Whatsapp: <a href="https://api.whatsapp.com/send?phone=+573164542339&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios."><span style="color: #fff;">+57 313 455 4630</span></li> </a>
+
+              </ul>
+
+            </div>
+            <div class="col-sm-6">
+
+              <ul class="client-info">
+                <i class="licon-eye"></i>
+                <li><a href="tracking.html"><span style="color: #fff;">Rastreo de paquetes </span> </a></li>
+                <i class="licon-dice"></i>
+                <li><a href="mibodega.html"> <span style="color: #fff;">Mi bodega</span> </a></li>
+                <i class="licon-keyboard">
+                </i>
+                <li><a href="calcular.html"><span style="color: #fff;"> Mi Calculadora</span> </a></li>
+                <i class="licon-pencil">
+                </i>
+                <li><a href="registro.html"><span style="color: #fff;"> Registrarse</span> </a></li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- top-header -->
+
+      <div class="top-header">
+
+        <div class="container">
+
+          <div class="table-row">
+
+            <div class="col-md-3">
+
+              <!--Logo-->
+
+              <a href="index.html" class="index">
+
+                <img src="images/logo.png" alt="logo">
+
+              </a>
+
+            </div>
+            <div class="col-md-9">
+
+              <!-- - - - - - - - - - - - / Mobile Menu - - - - - - - - - - - - - -->
+
+              <!--main menu-->
+
+              <div class="menu-holder">
+
+                <div class="menu-wrap">
+
+                  <div class="nav-item">
+                    <nav style="display: flex; justify-content: center;" id="main-navigation" class="main-navigation">
+                      <ul id="menu" class="clearfix">
+                        <img src="images/perfil.png" alt="">
+                        <li class="dropdown"><a href="#">Mi Bodega</a>
+                          <!--sub menu-->
+                          <div class="sub-menu-wrap">
+                            <ul>
+                              <!-- <li style="margin-left: 1rem;">-Número: BC0976543-</li> -->
+                              <li><a href="perfil.html">-Perfil-</a></li>
+                              <li><a onclick="cerrarsesion()">-Cerrar BODEGA</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </nav>
+                    <!-- <div class="search-holder"><button class="search-button"></button></div> -->
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <!-- - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - -->
+
+    <!-- - - - - - - - - - - - - - Breadcrumbs - - - - - - - - - - - - - - - - -->
+
+    <div class="breadcrumbs-wrap data-grad-bg-bodega">
+
+      <div class="container">
+
+        <h1 class="page-title">Mi Perfil-Bodega</h1>
+
+        <ul class="breadcrumbs">
+
+          <li><a href="index.html">Home</a></li>
+          <li>Mi Perfil-Bodega</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- - - - - - - - - - - - - end Breadcrumbs - - - - - - - - - - - - - - - -->
+
+    <!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
+
+    <div id="content" class="with-separator-left sbl">
+
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Sidebar-->
+          <aside id="sidebar" class="col-md-2">
+
+            <!-- page-section -->
+            <div class="page-section">
+              <div class="team-member">
+                <div class="member-photo">
+                  <img src="images/300x300_member1.jpg" alt="miembros">
+                </div>
+              </div><br><br>
+              <!-- widget -->
+              <div class="widget">
+
+                <h5 class="widget-title">Categorias</h5>
+                <ul class="info-links">
+                  <li><a href="perfil.html">Perfil</a></li>
+                  <li><a href="mc-actuales.html">Paquetes</a></li>
+                  <li><a href="alerta.html">Alerta Envíos</a></li>
+                  <!-- <li><a href="consolidacion.html">Consolidación</a></li> -->
+                </ul>
+              </div>
+            </div>
+          </aside>
+          <!-- Main content -->
+          <main id="main" class="col-md-10">
+            <!-- page-section -->
+            <div class="page-section">
+              <div class="content-element" id="envio">
+                <div style="  display: flex;
+                flex-direction: unset;
+                justify-content: space-between;
+              " class="alert alert-info">
+                  <button type="button" class="close" data-dismiss="alert"></button>
+                  Hace falta que agregar un método de pago. <a href="perfil.html" class="btn">Agregar tarjeta</a>
+                </div>
+                <br><br>
+                <!-- Bodega -->
+                <div class="content-element">
+                  <div class="content-element-type-2">
+                    <h5 class="fw-medium">Mi Bodega</h5>
+                    <h5 class="section-pre-title">Hola,<span id="nombreCliente"></span> <br>BODEGA NÚMERO: <spam
+                        id="numCasillero"></spam>
+                    </h5><br>
+                    <h6>Desde el panel de control de su cuenta, puede ver sus pedidos recientes, administrar sus
+                      direcciones y editar su contraseña y los detalles de su cuenta. </h6>
+                  </div>
+                  <!--Bodega-->
+                  <!-- - - - - - - - - - - - - - Tabs - - - - - - - - - - - - - - - - -->
+                  <div class="col-md-10">
+                    <div class="tabs tabs-section horisontal clearfix">
+                      <!--tabs navigation-->
+                      <ul class="tabs-nav clearfix">
+                        <li class=""><a href="#tab-1">Información general</a></li>
+                        <li class=""><a href="#tab-2">Pagos</a></li>
+                      </ul>
+                      <!--tabs content-->
+                      <div class="tabs-content">
+                        <div id="tab-1">
+                          <div class="content-element-type-2">
+                            <div class="row">
+                              <div class="col-md-8">
+                                <h4 style="font-size: 30px; font-weight: 600;" class="section-sub-title">Información
+                                  general </h4>
+                                <span style="font-size: 20px; font-weight: 700;" class="section-pre-title">Esta
+                                  información será empleada para la entrega de los
+                                  paquetes.</span><br><br>
+                                <form class="form-style1 fx-cols-2">
+                                  <div class="form-column">
+                                    <label class="required">Nombres</label>
+                                    <input type="text" id="nombreGeneral" disabled>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Bodega</label>
+                                    <input type="number" id="bodegaGeneral" disabled>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Correo electrónico</label>
+                                    <input type="text" id="correoGeneral" disabled>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Teléfono</label>
+                                    <input type="number" id="telefonoGeneral" disabled>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Fecha de nacimento</label>
+                                    <input type="date" placeholder="18/09/79">
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Teléfono Celular</label>
+                                    <input type="number"><br><br>
+                                    <a style="display: flex; justify-content: center;" href="#"
+                                      class="btn btn-large btn-style-6">Edit</a><br>
+                                    <div class="form-column-full">
+                                      <a style="display: grid; font-size: 20px;" href="#" class="btn"
+                                        type="submit">GUARDAR CAMBIOS</a>
+                                    </div>
+                                  </div>
+                                </form>
+                                <hr class="item-divider"><br>
+                                <form class="form-style1 fx-cols-2" id="appModal">
+                                  <div class="form-column-full">
+                                    <h4 style="font-size: 30px; font-weight: 600;" class="section-sub-title">Agregar
+                                      dirección Entrega</h4>
+                                  </div>
+                                  <div class="form-column">
+                                    <input v-model="DetalleValid.input" type="text"
+                                      placeholder="CASA/OFICINA/MAMA/ETC..." required>
+                                  </div>
+                                  <div class="form-column">
+                                    <input v-model="NombreDestinatarioValid.input" type="text"
+                                      placeholder="NOMBRE DEL DESTINO" required>
+                                  </div>
+                                  <div class="form-column">
+                                    <input v-model="DireccionValid.input" type="text" placeholder="DIRECCION" required>
+                                  </div>
+                                  <div class="form-column">
+                                    <input v-model="CodigoPostalValid.input" type="text" placeholder="CODIGO POSTAL"
+                                      required>
+                                  </div>
+                                  <div class="form-column-full">
+                                    <div class="form-column">
+                                      <label class="required" for="Ciudades">Selecciona una Ciudad</label>
+                                      <v-select label="Nombre" :options="ciudadesValid" v-model="CiudadIdValid">
+                                      </v-select>
+                                    </div>
+                                  </div>
+                                  <div class="form-column">
+                                    <footer class="login-form-footer">
+                                      <input type="checkbox" id="login-remember-me" class="type-2"
+                                        name="login_remember_me" v-model="PrincipalValid">
+                                      <label for="login-remember-me">Dirección principal</label>
+                                    </footer>
+                                  </div>
+                                  <button class="btn btn-primary" v-on:click.prevent="enviar()">
+                                    Grabar</button>
+                                  <!-- <div class="form-column">
+                                    <button class="btn btn-primary" :disabled="validar=='disabled'" v-on:click.prevent="enviar()">
+                                      Grabar</button>
+                                  </div> -->
+
+                                  <!-- <div class="form-column">
+                                    <label class="required" for="Ciudades">Es dirección principal</label>
+                                    <input type="checkbox" id="bd_create_an_account" class="type-2" name="bd_create_an_account" required>
+                                    <input type="checkbox" id="checkbox">
+                                  </div> -->
+                                  <!--/ .input-wrapper -->
+                                </form>
+                                <!--Direccionde entrega -->
+                                <!-- <form class="form-style1 fx-cols-2">
+                                  <h4 style="font-size: 30px; font-weight: 600;" class="section-sub-title">Dirección
+                                    Entrega</h4><br>
+
+                                  <div class="form-column-full">
+                                    <label class="required">Dirección</label>
+                                    <input type="adress" placeholder="Dirección de entrega">
+                                    <input type="text" placeholder="Apartmento, interior, unbidad etc. (opcional)">
+                                  </div>
+
+                                  <div class="form-column">
+                                    <label class="required">Departamento</label>
+                                    <div class="custom-select">
+                                      <div class="select-title">Seleccionar Dpto</div>
+                                      <ul id="menu-type" class="select-list"></ul>
+                                      <select class="hide">
+                                        <option value="menu">Opción 1</option>
+                                        <option value="menu">Opción 2</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Ciudad</label>
+                                    <div class="custom-select">
+                                      <div class="select-title">Seleccionar Ciudad</div>
+                                      <ul id="menu-type" class="select-list"></ul>
+                                      <select class="hide">
+                                        <option value="menu">Opción 1</option>
+                                        <option value="menu">Opción 2</option>
+                                      </select>
+                                    </div>
+                                  </div>
+
+                                  <div class="form-column">
+                                    <label class="required">Tipo de persona</label>
+                                    <div class="custom-select">
+                                      <div class="select-title">Persona</div>
+                                      <ul id="menu-type" class="select-list"></ul>
+                                      <select class="hide">
+                                        <option value="menu">Natural</option>
+                                        <option value="menu">Juridica</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Tipo Documento</label>
+                                    <div class="custom-select">
+                                      <div class="select-title">Documento</div>
+                                      <ul id="menu-type" class="select-list"></ul>
+                                      <select class="hide">
+                                        <option value="menu">Cédula</option>
+                                        <option value="menu">Pasaport</option>
+                                        <option value="menu">Nit</option>
+
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Número de Documento</label>
+                                    <input type="number" placeholder="Número de Documento">
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Código Postal</label>
+                                    <input type="number" placeholder="Código postal">
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Contraseña</label>
+                                    <input type="password" placeholder="Contraseña">
+                                  </div>
+                                  <div class="form-column">
+                                    <label class="required">Confirmar contraseña</label>
+                                    <input type="password" placeholder="Confirmar contraseña">
+                                    <a style="display: flex; justify-content: center;" href="#"
+                                      class="btn btn-large btn-style-6">Edit</a><br>
+                                    <div class="form-column-full">
+                                      <a style="display: grid; font-size: 20px;" href="#" class="btn"
+                                        type="submit">GUARDAR CAMBIOS</a>
+                                    </div>
+                                  </div>
+                                </form> -->
+                                <hr class="item-divider"><br>
+                                <!--Contraseña -->
+                                <form class="form-style1 fx-cols-2" id="cambioContrasena">
+                                  <h4 style="font-size: 30px; font-weight: 600;" class="section-sub-title">Contraseña
+                                  </h4><br>
+                                  <div class="form-column-full">
+                                    <div class="form-column">
+                                      <label class="required">Contraseña actual</label>
+                                      <input type="password" placeholder="Contraseña" id="OldPassword">
+                                    </div>
+                                    <div class="form-column">
+                                      <label class="required">Nueva contraseña</label>
+                                      <input type="password" placeholder="Confirmar contraseña" id="NewPassword">
+                                    </div>
+                                    <div class="form-column">
+                                      <label class="required">Confirma contraseña</label>
+                                      <input type="password" placeholder="Confirmar contraseña" id="ConfirmPassword">
+                                      <button type="submit" style="width:-webkit-fill-available" class="btn btn-primary btn-block" onclick="cambioPass(event)">Guardar</button>
+                                      <div id="mensajeLogin"></div>
+                                    </div>
+                                  </div>
+                              </div>
+                              <!--/ .input-wrapper -->
+                              </form>
+                              <!--End Contraseña -->
+                            </div>
+                          </div>
+                        </div><br><br>
+                        <!-- Tarjeta -->
+                        <div class="contenedor">
+
+                          <!-- Tarjeta -->
+                          <section class="tarjeta" id="tarjeta">
+                            <div class="delantera">
+                              <div class="logo-marca" id="logo-marca">
+                                <!-- <img src="img/logos/visa.png" alt=""> -->
+                              </div>
+                              <img src="img/chip-tarjeta.png" class="chip" alt="">
+                              <div class="datos">
+                                <div class="grupo" id="numero">
+                                  <p class="label">Número Tarjeta</p>
+                                  <p class="numero">#### #### #### ####</p>
+                                </div>
+                                <div class="flexbox">
+                                  <div class="grupo" id="nombre">
+                                    <p class="label">Nombre Tarjeta</p>
+                                    <p class="nombre">Jhon Doe</p>
+                                  </div>
+                                  <div class="grupo" id="expiracion">
+                                    <p class="label">Expiracion</p>
+                                    <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="trasera">
+                              <div class="barra-magnetica"></div>
+                              <div class="datos">
+                                <div class="grupo" id="firma">
+                                  <p class="label">Firma</p>
+                                  <div class="firma">
+                                    <p></p>
+                                  </div>
+                                </div>
+                                <div class="grupo" id="ccv">
+                                  <p class="label">CCV</p>
+                                  <p class="ccv"></p>
+                                </div>
+                              </div>
+                              <p class="leyenda">Recibinos todas las tarjetas de credito</p>
+                              <a href="#" class="link-banco">www.tubanco.com</a>
+                            </div>
+                          </section>
+
+                          <!-- Contenedor Boton Abrir Formulario -->
+                          <div class="contenedor-btn">
+                            <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                              <i class="fas fa-plus"></i>
+                            </button>
+                          </div>
+
+                          <!-- Formulario -->
+                          <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                            <div class="grupo">
+                              <label for="inputNumero">Número Tarjeta</label>
+                              <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                            </div>
+                            <div class="grupo">
+                              <label for="inputNombre">Nombre</label>
+                              <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                            </div>
+                            <div class="flexbox">
+                              <div class="grupo expira">
+                                <label for="selectMes">Expiracion</label>
+                                <div class="flexbox">
+                                  <div class="grupo-select">
+                                    <select name="mes" id="selectMes">
+                                      <option disabled selected>Mes</option>
+                                    </select>
+                                    <i class="fas fa-angle-down"></i>
+                                  </div>
+                                  <div class="grupo-select">
+                                    <select name="year" id="selectYear">
+                                      <option disabled selected>Año</option>
+                                    </select>
+                                    <i class="fas fa-angle-down"></i>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="grupo ccv">
+                                <label for="inputCCV">CCV</label>
+                                <input type="text" id="inputCCV" maxlength="3">
+                              </div>
+                            </div>
+                            <button type="submit" class="btn-enviar">Enviar</button>
+                          </form>
+                          <!-- Formulario -->
+                          <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                            <div class="grupo">
+                              <label for="inputNumero">Número Tarjeta</label>
+                              <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                            </div>
+                            <div class="grupo">
+                              <label for="inputNombre">Nombre</label>
+                              <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                            </div>
+                            <div class="flexbox">
+                              <div class="grupo expira">
+                                <label for="selectMes">Expiracion</label>
+                                <div class="flexbox">
+                                  <div class="grupo-select">
+                                    <select name="mes" id="selectMes">
+                                      <option disabled selected>Mes</option>
+                                    </select>
+                                    <i class="fas fa-angle-down"></i>
+                                  </div>
+                                  <div class="grupo-select">
+                                    <select name="year" id="selectYear">
+                                      <option disabled selected>Año</option>
+                                    </select>
+                                    <i class="fas fa-angle-down"></i>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="grupo ccv">
+                                <label for="inputCCV">CCV</label>
+                                <input type="text" id="inputCCV" maxlength="3">
+                              </div>
+                            </div>
+                            <button type="submit" class="btn-enviar">Guardar</button>
+                          </form>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </main><br><br><br>
+        <!--Ende Main -->
+      </div>
+    </div>
+  </div>
+  <!-- - - - - - - - - - - - - end Content - - - - - - - - - - - - - - - -->
+
+
+
+  <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-widgets">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-6 col-xs-6">
+
+            <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+            <div class="widget">
+              <img style="margin-bottom: 2rem;" src="images/logo_white.png" alt="logístico">
+              <p>Nuestro compromiso es suplir sus requerimiento y expectativas, para contribuir al desarrollo comercial de la empresas y del país.
+              </p>
+            </div>
+            <!-- - - - - - - - - - - - - - End of Widget - - - - - - - - - - - - - - - - -->
+          </div>
+
+          <div class="col-md-6 col-xs-6">
+            <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+            <div class="widget">
+              <h6 class="widget-title">Contáctenos</h6>
+              <p>NWBox<br>
+                Av.eldorado 96j-66 <br>
+                Oficina 318</p>
+
+                <ul class="contact-info">
+
+                  <li><span class="licon-telephone"></span> <a href="callto:18005596580"><br />Principal: +57 311 335
+                      9603 <span style="color: #E46827;">| </span>
+                      Whatsapp +57 313 455 4630 | +57 324 357 7813</a></li>
+                  <li><span class="licon-at-sign"></span> <a href="mailto:comercial@nwbox.co">
+                      <spam style="color: #E46827;">comercial@nwbox.co </spam>
+                    </a></li>
+
+                </ul>
+              <ul class="social-icons">
+
+                <li><a href="#" target="_blank"><i class="icon-facebook"></i></a></li>
+                <li><a href="#" target="_blank"><i class="icon-instagram"></i></a></li>
+
+              </ul>
+            </div>
+            <!-- - - - - - - - - - - - - - End of Widget - - - - - - - - - - - - - - - - -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <hr class="item-divider">
+    <!-- - - - - - - - - - - - - - Copyright - - - - - - - - - - - - - - - - -->
+    <div class="copyright">
+
+      <div class="container">
+
+        <div class="table-row">
+
+          <div class="col-sm-4">
+            <spam style="font-size: 18px;">NWBox</span> Copyright © 2018-2022
+          </div>
+          <div class="col-sm-8">
+
+            <ul class="info-links h-type">
+
+              <li><a style="color: #E46827;font-size:large;" href="terminos.html">* TERMINOS Y CONDICIONES</a></li>
+              <li><a style="color: #E46827;font-size:large;" href="faq.html">* PREGUNTAS FRECUENTES</a></li>
+              <li><a style="color: #E46827;font-size:large;" href="restringidos.html">* PRODUCTOS RESTRINGIDOS</a></li>
+              <!-- <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li> -->
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- - - - - - - - - - - - - - End Copyright - - - - - - - - - - - - - - - - -->
+
+
+  </footer>
+
+  <!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - - - -->
+
+  </div>
+
+  <!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+  <!-- JS Libs & Plugins
+  ============================================ -->
+  <script src="js/libs/jquery.modernizr.js"></script>
+  <script src="js/libs/jquery-2.2.4.min.js"></script>
+  <script src="js/libs/jquery.validate.js"></script>
+  <script src="js/libs/jquery-ui.min.js"></script>
+  <script src="js/libs/retina.min.js"></script>
+  <script src="plugins/jquery.scrollTo.min.js"></script>
+  <script src="plugins/jquery.localScroll.min.js"></script>
+  <script src="plugins/jquery.queryloader2.min.js"></script>
+  <script src="plugins/owl.carousel.min.js"></script>
+  <script src="plugins/jquery.fancybox.js"></script>
+  <script src="plugins/twitter/jquery.tweet.min.js"></script>
+  <script src="plugins/elevatezoom.min.js"></script>
+
+  <script src="plugins/bootstrap.js"></script>
+
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+  <script src="js/credito.js"></script>
+
+
+  <!-- JS theme files
+  ============================================ -->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/fivepaq.js"></script>
+  <script src="js/mc-direcciones.js"></script>
+
+  <!-- cerrar cuenta -->
+  <script type="text/javascript">
+    function cerrarsesion() {
+      fivepaq.logOut();
+      location.href = "index.html";
+    }
+    var dataout = fivepaq.dataOut();
+
+    if (dataout == null || dataout.L !== true) {
+      location.href = "index.html";
+    }
+
+    $("#nombreCliente").html(dataout.U);
+    $("#numCasillero").html(dataout.N);
+    $("#nombreGeneral").val(dataout.U);
+    $("#bodegaGeneral").val(dataout.N);
+    $("#correoGeneral").val(dataout.E);
+    $("#telefonoGeneral").val(dataout.Tel);
+
+    function cambioPass(e) {
+      $('form[id="cambioContrasena"]').validate({
+
+        rules: {
+          OldPassword: {
+            required: true,
+            maxlength: 16,
+          },
+          NewPassword: {
+            required: true,
+          },
+          ConfirmPassword: {
+            required: true,
+            maxlength: 16,
+            equalTo: "#NewPassword",
+          }
+        },
+        messages: {
+          OldPassword: 'El campo es requerido',
+          NewPassword: 'Contraseña minimo 6 caracteres',
+        },
+        submitHandler: function (form) {
+
+          var datos = {
+            OldPassword: $("#OldPassword").val(),
+            NewPassword: $("#NewPassword").val(),
+            ConfirmPassword: $("#ConfirmPassword").val(),
+          }
+          fivepaq.changePass(datos.OldPassword, datos.NewPassword);
+        }
+      });
+      $.validator.addMethod(
+        "regex",
+        function (value, element, regexp) {
+          var re = new RegExp(regexp);
+          return this.optional(element) || re.test(value);
+        },
+        "La contraseña no cumple con los requerimientos minimos"
+      );
+      $("#NewPassword").rules("add", {
+        regex: /^(?=.*\d)(?=.*[\u0021-\u002b\u003c-\u0040])(?=.*[A-Z])(?=.*[a-z])\S{8,16}$/
+      })
+    }
+  </script>
+</body>
+</html>

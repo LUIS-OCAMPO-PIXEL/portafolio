@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Google Web Fonts
+  ================================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800" rel="stylesheet"> -->
+
+    <!-- Basic Page Needs
+  ================================================== -->
+
+    <title>NWBox</title>
+
+    <meta name="format-detection" content="telephone=no" />
+    <meta charset="utf-8">
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!--meta info-->
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+    <!-- Vendor CSS
+  ============================================ -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="font/demo-files/demo.css">
+    <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+    <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+    <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <!-- CSS theme files
+  ============================================ -->
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/vue-select@3.1.0/dist/vue-select.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+</head>
+
+<body class="wide-layout">
+    <div class="loader"></div>
+    <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+    <div id="wrapper" class="wrapper-container">
+        <!-- - - - - - - - - - - - - Menu Mobile - - - - - - - - - - - - - - -->
+        <nav id="mobile-advanced" class="mobile-advanced"></nav>
+        <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - -->
+        <header id="header" class="header-3">
+            <!-- top-bar -->
+            <div class="top-bar">
+
+                <div class="container">
+
+                    <div class="table-row">
+
+                        <div class="col-sm-6">
+                            <ul class="contact-info">
+                              <li><span style="color: #E46827;font-size: 18px;" class="licon-telephone"></span> <a
+                                  style="color: #fff;" href="callto:+573165457673">+57 324 357 7813</a></li>
+                              <li><span style="color: #E46827; font-size: 18px;" class="licon-at-sign"></span> <a style="color: #fff;"
+                                  href="mailto:comercial@nwbox.co">comercial@nwbox.co</a></li>
+                              <li>Whatsapp: <a href="https://api.whatsapp.com/send?phone=+573164542339&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios."><span style="color: #fff;">+57 313 455 4630</span></li> </a>
+              
+                            </ul>
+              
+                          </div>
+                        <div class="col-sm-6">
+
+                            <ul class="client-info">
+                                <i class="licon-eye"></i>
+                                <li><a href="tracking.html"><span style="color: #fff;">RASTREO PAQUETE </span> </a></li>
+                                <i class="licon-dice"></i>
+                                <li><a href="registro.html"> <span style="color: #fff;">MI BODEGA</span> </a></li>
+                                <i class="licon-keyboard">
+                                </i>
+                                <li><a href="calcular.html"><span style="color: #fff;"> CALCULADORA</span> </a></li>
+                                <i class="licon-pencil">
+                                </i>
+                                <li><a href="registro.html"><span style="color: #fff;"> MI REGISTRO</span> </a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- top-header -->
+
+            <div class="top-header">
+
+                <div class="container">
+
+                    <div class="table-row">
+
+                        <div class="col-md-3">
+
+                            <!--Logo-->
+
+                            <a href="index.html" class="index">
+
+                                <img src="images/logo.png" alt="logo">
+
+                            </a>
+
+                        </div>
+                        <div class="col-md-9">
+
+                            <!-- - - - - - - - - - - - / Mobile Menu - - - - - - - - - - - - - -->
+
+                            <!--main menu-->
+
+                            <div class="menu-holder">
+
+                                <div class="menu-wrap">
+
+                                    <div class="nav-item">
+                                        <nav style="display: flex; justify-content: center;" id="main-navigation"
+                                            class="main-navigation">
+                                            <ul id="menu" class="clearfix">
+                                                <img src="images/perfil.png" alt="">
+                                                <li class="dropdown"><a href="#">MI BODEGA</a>
+                                                    <!--sub menu-->
+                                                    <div class="sub-menu-wrap">
+                                                        <ul>
+                                                            <!-- <li style="margin-left: 1rem;">-Número: BC0976543-</li> -->
+                                                            <li><a href="perfil.html">-Perfil-</a></li>
+                                                            <li><a onclick="cerrarsesion()">-Cerrar BODEGA</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                        <!-- <div class="search-holder"><button class="search-button"></button></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - -->
+
+        <!-- - - - - - - - - - - - - - Breadcrumbs - - - - - - - - - - - - - - - - -->
+
+        <div class="breadcrumbs-wrap data-grad-bg-bodega">
+
+            <div class="container">
+
+                <h1 class="page-title">Mis Paquetes</h1>
+
+                <ul class="breadcrumbs">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li>Mis Paquetes</li>
+
+                </ul>
+            </div>
+        </div>
+        <!-- - - - - - - - - - - - - end Breadcrumbs - - - - - - - - - - - - - - - -->
+
+        <!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
+
+        <div id="content" class="with-separator-left sbl">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- Sidebar-->
+                    <aside id="sidebar" class="col-md-2">
+
+                        <!-- page-section -->
+                        <div class="page-section">
+                            <div class="team-member">
+                                <div class="member-photo">
+                                    <img src="images/300x300_member1.jpg" alt="">
+                                </div>
+                            </div><br><br>
+                            <!-- widget -->
+                            <div class="widget">
+
+                                <h5 class="widget-title">Categorias</h5>
+                                <ul class="info-links">
+                                    <li><a href="perfil.html">PERFIL</a></li>
+                                    <li><a href="mc-actuales.html">PAQUETES</a></li>
+                                    <li><a href="alerta.html">ALERTAR ENVÍOS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </aside>
+                    <!-- Main content -->
+                    <main id="main" class="col-md-10">
+                        <!-- page-section -->
+                        <div class="page-section">
+                            <div class="content-element" id="envio">
+                                <div style="  display: flex;
+                                                flex-direction: unset;
+                                                justify-content: space-between;
+                                            " class="alert alert-info">
+                                    <button type="button" class="close" data-dismiss="alert"></button>
+                                    Hace falta que agregar un método de pago. <a href="perfil.html" class="btn">Agregar
+                                        tarjeta</a>
+                                </div>
+                                <br><br>
+                                <h4 style="display: grid; justify-content: center;" class="fw-medium">Envíos recientes
+                                </h4>
+                                <div class="table-type-1 recent-order responsive-table">
+                                    <!--FILTROS--->
+                                    <section class="author-archive">
+                                        <div class="container">
+                                            <input type="radio" id="actuales" name="categories" value="actuales"
+                                                checked>
+                                            <input type="radio" id="historico" name="categories" value="historico">
+                                            <input type="radio" id="misAlertas" name="categories" value="misAlertas">
+                                            <input type="radio" id="bloqueado" name="categories" value="bloqueado">
+                                            <ol class="filters">
+                                                <li>
+                                                    <label for="actuales"><a
+                                                            href="mc-actuales.html">ACTUALES</a></label>
+                                                </li>
+                                                <li>
+                                                    <label for="historico"><a
+                                                            href="mc-historicos.html">HISTORICOS</a></label>
+                                                </li>
+                                                <li>
+                                                    <label for="misAlertas"><a href="mc-misAlertas.html">MIS
+                                                            ALERTAS</a></label>
+                                                </li>
+                                                <li>
+                                                    <label for="bloqueado"><a
+                                                            href="mc-paquetesBloqueados.htm">BLOQUEADOS</a></label>
+                                                </li>
+                                                <li>
+                                                    <label for="bloqueado" class="active"><a href="mc-consolidacion.html">CONSOLIDACIÒN</a></label>
+                                                  </li>
+                                            </ol>
+                                        </div>
+                                    </section><br>
+                                    <!--FILTROS-->
+                                    <div id="collapsePaqBlq" class="panel-collapse collapse in" role="tabpanel"
+                                    aria-labelledby="headingOne_2">
+                                        <div id="app" class="panel-body">
+                                            <!-- Table – Bordered -->
+                                            <ol class="filters">
+                                                <li>
+                                                    <label for="EU" @click.prevent="setActive('home')" :class="{ active: isActive('home') }">Estado Unidos</label>
+                                                </li>
+                                                <li>
+                                                    <label for="CH" @click.prevent="setActive('profile')" :class="{ active: isActive('profile') }">China</label>
+                                                </li>
+                                                <li>
+                                                    <label for="ES" @click.prevent="setActive('contact')" :class="{ active: isActive('contact') }">España</label>
+                                                </li>
+                                            </ol>
+                                            <div class="tab-content py-3" id="myTabContent" v-cloak>
+                                                <div class="tab-pane table-responsive" :class="{ 'active show': isActive('home') }">
+                                                    <template v-if="resultsUs.length == 0">
+                                                        <h4>Actualmente, no tiene paquetes para consolidar en este Hub.</h4>
+                                                    </template>
+                                                    <template v-else v-if="activeItem == 'home'">
+                                                        <div id="divResult">
+                                                            <table class="table table-bordered table-striped  table-bordered ">
+                                                                <thead class="table-responsive">
+                                                                    <th>Fecha</th>
+                                                                    <th>Guía</th>
+                                                                    <th>Contenido</th>
+                                                                    <th>VR-USD</th>
+                                                                    <th>Peso (Lb)</th>
+                                                                    <th>Estado</th>
+                                                                    <th>
+                                                                        <input type="checkbox" @click="selectAllUs" id="allUs">
+                                                                        <label for="allUs">Todos</label>
+                                                                    </th>
+                                                                </thead>
+                                                                <tbody v-for="paq in resultsUs" class="table-responsive">
+                                                                    <tr>
+                                                                        <td class="table-responsive">{{ paq.Fecha | formatDate }}
+                                                                        </td>
+                                                                        <td class="table-responsive">{{ paq.PaqueteId}}</td>
+                                                                        <td class="table-responsive"
+                                                                            v-if="paq.Descripcion.length <20">
+                                                                            {{ paq.Descripcion }}</td>
+                                                                        <td class="table-responsive"
+                                                                            v-else="paq.Descripcion.length >=20">
+                                                                            {{ paq.Descripcion .substring(0,18)+".."}}</td>
+                                                                        <td class="table-responsive"
+                                                                            v-if="paq.ValorDeclarado == null">
+                                                                            0.00</td>
+                                                                        <td class="table-responsive"
+                                                                            v-else="paq.ValorDeclarado != null">{{
+                                                                            paq.ValorDeclarado }}
+                                                                        </td>
+                                                                        <td class="table-responsive">{{paq.PesoLibras}}</td>
+                                                                        <td class="table-responsive">BLQ</td>
+                                                                        <td><input type="checkbox" v-bind:value="paq.PaqueteId" v-bind:id="paq.PaqueteId"
+                                                                            v-model="packagesIdUs" @click="selectEvent(paq,$event)" name="ckeckInput"/>
+                                                                            <label v-bind:for="paq.PaqueteId"></label>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <template v-if="activeItem == 'home'">
+                                                                    <div class="form-column">
+                                                                        <label>Seleccione los paquetes a consolidar *</label>
+                                                                        <input class="form-control" v-model="packagesIdUs" id="listaPaqueteId" readonly>
+                                                                    </div>
+                                                                <my-component-name ></my-component-name>
+                                                            </template>
+                                                        </div>
+                                                    </template>
+                                                </div>
+                                                <div class="tab-pane table-responsive" :class="{ 'active show': isActive('profile') }" >
+                                                    <template v-if="resultsCh.length == 0">
+                                                        <h4>Actualmente, no tiene paquetes para consolidar en este Hub.</h4>
+                                                    </template>
+                                                    <template v-else v-if="activeItem == 'profile'">
+                                                        <table class="table table-bordered table-striped  table-bordered ">
+                                                            <thead class="table-responsive">
+                                                                <th>Fecha</th>
+                                                                <th>Guía</th>
+                                                                <th>Contenido</th>
+                                                                <th>VR-USD</th>
+                                                                <th>Peso (Lb)</th>
+                                                                <th>Estado</th>
+                                                                <th>
+                                                                    <input type="checkbox" @click="selectAllCh" id="allCh">
+                                                                    <label for="allCh">Todos</label>
+                                                                </th>
+                                                            </thead>
+                                                            <tbody v-for="paq in resultsCh" class="table-responsive">
+                                                                <tr>
+                                                                    <td class="table-responsive">{{ paq.Fecha | formatDate }}
+                                                                    </td>
+                                                                    <td class="table-responsive">{{ paq.PaqueteId}}</td>
+                                                                    <td class="table-responsive"
+                                                                        v-if="paq.Descripcion.length <20">
+                                                                        {{ paq.Descripcion }}</td>
+                                                                    <td class="table-responsive"
+                                                                        v-else="paq.Descripcion.length >=20">
+                                                                        {{ paq.Descripcion .substring(0,18)+".."}}</td>
+                                                                    <td class="table-responsive"
+                                                                        v-if="paq.ValorDeclarado == null">
+                                                                        0.00</td>
+                                                                    <td class="table-responsive"
+                                                                        v-else="paq.ValorDeclarado != null">{{
+                                                                        paq.ValorDeclarado }}
+                                                                    </td>
+                                                                    <td class="table-responsive">{{paq.PesoLibras}}</td>
+                                                                    <td class="table-responsive">BLQ</td>
+                                                                    <td><input type="checkbox" v-bind:value="paq.PaqueteId" v-bind:id="paq.PaqueteId"
+                                                                        v-model="packagesIdCh" @click="selectEvent(paq,$event)" name="ckeckInput"/>
+                                                                        <label v-bind:for="paq.PaqueteId"></label>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <template v-if="activeItem == 'profile'">
+                                                            <div class="form-column">
+                                                                <label>Seleccione los paquetes a consolidar *</label>
+                                                                <input class="form-control" v-model="packagesIdCh" id="listaPaqueteId" readonly>
+                                                            </div>
+                                                            <my-component-name ></my-component-name>
+                                                        </template>
+                                                    </template>
+                                                </div>
+                                                <div class="tab-pane" :class="{ 'active show': isActive('contact') }"
+                                                    id="contact">
+                                                    <template v-if="resultsEs.length == 0">
+                                                        <h4>Actualmente, no tiene paquetes para consolidar en este Hub.</h4>
+                                                    </template>
+                                                    <template v-else v-if="activeItem == 'contact'">
+                                                        <table class="table table-bordered table-striped  table-bordered ">
+                                                            <thead class="table-responsive">
+                                                                <th>Fecha</th>
+                                                                <th>Guía</th>
+                                                                <th>Contenido</th>
+                                                                <th>VR-USD</th>
+                                                                <th>Peso (Lb)</th>
+                                                                <th>Estado</th>
+                                                                <th>
+                                                                    <input type="checkbox" @click="selectAllEs" id="allEs">
+                                                                    <label for="allEs">Todos</label>
+                                                                </th>
+                                                            </thead>
+                                                            <tbody v-for="paq in resultsEs" class="table-responsive">
+                                                                <tr>
+                                                                    <td class="table-responsive">{{ paq.Fecha | formatDate }}
+                                                                    </td>
+                                                                    <td class="table-responsive">{{ paq.PaqueteId}}</td>
+                                                                    <td class="table-responsive"
+                                                                        v-if="paq.Descripcion.length <20">
+                                                                        {{ paq.Descripcion }}</td>
+                                                                    <td class="table-responsive"
+                                                                        v-else="paq.Descripcion.length >=20">
+                                                                        {{ paq.Descripcion .substring(0,18)+".."}}</td>
+                                                                    <td class="table-responsive"
+                                                                        v-if="paq.ValorDeclarado == null">
+                                                                        0.00</td>
+                                                                    <td class="table-responsive"
+                                                                        v-else="paq.ValorDeclarado != null">{{
+                                                                        paq.ValorDeclarado }}
+                                                                    </td>
+                                                                    <td class="table-responsive">{{paq.PesoLibras}}</td>
+                                                                    <td class="table-responsive">BLQ</td>
+                                                                    <td><input type="checkbox" v-bind:value="paq.PaqueteId" v-bind:id="paq.PaqueteId"
+                                                                        v-model="packagesIdEs" @click="selectEvent(paq,$event)" name="ckeckInput"/>
+                                                                        <label v-bind:for="paq.PaqueteId"></label>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                        <template v-if="activeItem == 'contact'">
+                                                            <div class="form-column">
+                                                                <label>Seleccione los paquetes a consolidar *</label>
+                                                                <input v-if="activeItem == 'contact'" class="form-control" v-model="packagesIdEs" id="listaPaqueteId" readonly>
+                                                            </div>
+                                                            <my-component-name > </my-component-name>
+                                                        </template>
+                                                    </template>
+                                                </div>
+                                            </div>
+                                            <!-- end -->
+                                            <!-- Table – Bordered / End -->
+                                            <div class="gap-100"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+        <!-- - - - - - - - - - - - - end Content - - - - - - - - - - - - - - - -->
+        <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+        <footer id="footer" class="footer">
+            <div class="footer-widgets">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-6">
+                            <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+                            <div class="widget">
+                                <img style="margin-bottom: 2rem;" src="images/logo_white.png" alt="logístico">
+                                <p>Nuestro compromiso es suplir sus requerimiento y expectativas, para contribuir al desarrollo comercial de la empresas y del país.
+                                </p>
+                            </div>
+                            <!-- - - - - - - - - - - - - - End of Widget - - - - - - - - - - - - - - - - -->
+                        </div>
+
+                        <div class="col-md-6 col-xs-6">
+                            <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+                            <div class="widget">
+                                <h6 class="widget-title">Contáctenos</h6>
+                                <p>NWBox<br>
+                                    Av.eldorado 96j-66 <br>
+                                    Oficina 318</p>
+
+                                    <ul class="contact-info">
+
+                                        <li><span class="licon-telephone"></span> <a href="callto:18005596580"><br />Principal: +57 311 335
+                                            9603 <span style="color: #E46827;">| </span>
+                                            Whatsapp +57 313 455 4630 | +57 324 357 7813</a></li>
+                                        <li><span class="licon-at-sign"></span> <a href="mailto:comercial@nwbox.co">
+                                            <spam style="color: #E46827;">comercial@nwbox.co </spam>
+                                          </a></li>
+                      
+                                      </ul>
+                                <ul class="social-icons">
+
+                                    <li><a href="#" target="_blank"><i class="icon-facebook"></i></a></li>
+                                    <li><a href=#" target="_blank"><i class="icon-instagram"></i></a></li>
+                  
+                                  </ul>
+                            </div>
+                            <!-- - - - - - - - - - - - - - End of Widget - - - - - - - - - - - - - - - - -->
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <hr class="item-divider">
+            <!-- - - - - - - - - - - - - - Copyright - - - - - - - - - - - - - - - - -->
+            <div class="copyright">
+                <div class="container">
+                    <div class="table-row">
+                        <div class="col-sm-4">
+                            <spam style="font-size: 18px;">NWBox</span> Copyright © 2018-2022
+                        </div>
+                        <div class="col-sm-8">
+                            <ul class="info-links h-type">
+                                <li><a style="color: #E46827;font-size:large;" href="terminos.html">* TERMINOS Y
+                                        CONDICIONES</a></li>
+                                <li><a style="color: #E46827;font-size:large;" href="faq.html">* PREGUNTAS
+                                        FRECUENTES</a></li>
+                                <li><a style="color: #E46827;font-size:large;" href="restringidos.html">* PRODUCTOS
+                                        RESTRINGIDOS</a>
+                                </li>
+                                <!-- <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li> -->
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- - - - - - - - - - - - - - End Copyright - - - - - - - - - - - - - - - - -->
+        </footer>
+        <!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - - - -->
+    </div>
+
+    <!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+    <!-- JS Libs & Plugins
+  ============================================ -->
+    <script src="js/libs/jquery.modernizr.js"></script>
+    <script src="js/libs/jquery-2.2.4.min.js"></script>
+    <script src="js/libs/jquery-ui.min.js"></script>
+    <script src="js/libs/retina.min.js"></script>
+    <script src="plugins/jquery.scrollTo.min.js"></script>
+    <script src="plugins/jquery.localScroll.min.js"></script>
+    <script src="plugins/jquery.queryloader2.min.js"></script>
+    <script src="plugins/owl.carousel.min.js"></script>
+    <script src="plugins/jquery.fancybox.js"></script>
+    <script src="plugins/twitter/jquery.tweet.min.js"></script>
+    <script src="plugins/elevatezoom.min.js"></script>
+
+    <script src="plugins/bootstrap.js"></script>
+
+    <!-- JS theme files
+  ============================================ -->
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/fivepaq.js"></script>
+    <script src="js/libs/moment.js"></script>
+    <script src="js/mc-consolidacion.js"></script>
+
+    <script>
+        function cerrarsesion() {
+            fivepaq.logOut();
+            location.href = "index.html";
+        }
+        var dataout = fivepaq.dataOut();
+
+        if (dataout == null || dataout.L !== true) {
+            location.href = "index.html";
+        }
+
+        $("#nombreCliente").html(dataout.U);
+        $("#numCasillero").html(dataout.N);
+    </script>
+</body>
+
+</html>

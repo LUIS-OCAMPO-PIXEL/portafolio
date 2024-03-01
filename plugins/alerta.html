@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9" lang="en"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+  <!-- Google Web Fonts
+  ================================================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- <link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800" rel="stylesheet"> -->
+
+  <!-- Basic Page Needs
+  ================================================== -->
+
+  <title>NWBox</title>
+
+  <meta name="format-detection" content="telephone=no" />
+  <meta charset="utf-8">
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <!--meta info-->
+  <meta name="author" content="">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+
+  <!-- Vendor CSS
+  ============================================ -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontello.css">
+  <link rel="stylesheet" href="font/demo-files/demo.css">
+  <link rel="stylesheet" href="plugins/revolution/css/settings.css">
+  <link rel="stylesheet" href="plugins/revolution/css/layers.css">
+  <link rel="stylesheet" href="plugins/revolution/css/navigation.css">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+  <!-- CSS theme files
+  ============================================ -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
+
+</head>
+
+<body class="wide-layout">
+
+  <div class="loader"></div>
+
+  <!--cookies-->
+  <!-- <div class="cookies">
+          <div class="container">
+            <div class="clearfix">
+              <span>Please note this website requires cookies in order to function correctly, they do not store any specific information about you personally.</span>
+              <div class="f-right"><a href="#" class="btn btn-small btn-style-2">Accept Cookies</a><a href="#" class="btn btn-small btn-style-4">Read More</a></div>
+            </div>
+          </div>
+        </div>  -->
+
+  <!-- - - - - - - - - - - - - - Wrapper - - - - - - - - - - - - - - - - -->
+
+  <div id="wrapper" class="wrapper-container">
+
+    <!-- - - - - - - - - - - - - Menu Mobile - - - - - - - - - - - - - - -->
+
+    <nav id="mobile-advanced" class="mobile-advanced"></nav>
+
+    <!-- - - - - - - - - - - - - - Header - - - - - - - - - - - - - - - - -->
+
+    <header id="header" class="header-3">
+
+      <!--search form-->
+      <!--<div class="searchform-wrap">
+        <div class="vc-child h-inherit">
+          <form>
+            <input type="text" name="search" placeholder="Start typing...">
+            <button type="button"></button>
+          </form>
+
+        </div>
+      </div>-->
+
+      <!-- top-bar -->
+
+      <div class="top-bar">
+
+        <div class="container">
+
+          <div class="table-row">
+
+            <div class="col-sm-6">
+              <ul class="contact-info">
+                <li><span style="color: #E46827;font-size: 18px;" class="licon-telephone"></span> <a
+                    style="color: #fff;" href="callto:+573165457673">+57 324 357 7813</a></li>
+                <li><span style="color: #E46827; font-size: 18px;" class="licon-at-sign"></span> <a style="color: #fff;"
+                    href="mailto:comercial@nwbox.co">comercial@nwbox.co</a></li>
+                <li>Whatsapp: <a href="https://api.whatsapp.com/send?phone=+573164542339&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios."><span style="color: #fff;">+57 313 455 4630</span></li> </a>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- top-header -->
+
+      <div class="top-header">
+        <div class="container">
+          <div class="table-row">
+            <div class="col-md-3">
+              <!--Logo-->
+
+              <a href="index.html" class="index">
+                <img src="images/logo.png" alt="logo">
+              </a>
+
+            </div>
+            <div class="col-md-9">
+
+              <!-- - - - - - - - - - - - / Mobile Menu - - - - - - - - - - - - - -->
+
+              <!--main menu-->
+
+              <div class="menu-holder">
+
+                <div class="menu-wrap">
+
+                  <div class="nav-item">
+                    <nav style="display: flex; justify-content: center;" id="main-navigation" class="main-navigation">
+                      <ul id="menu" class="clearfix">
+                        <img src="images/perfil.png" alt="">
+                        <li class="dropdown"><a href="mibodega.html">Mi Bodega</a>
+                          <!--sub menu-->
+                          <div class="sub-menu-wrap">
+                            <ul>
+                              <!-- <li><a href="tracking.html">-Número: BC0976543-</a></li> -->
+                              <li><a href="ingresobodega.html">-Perfil-</a></li>
+                              <li><a onclick="cerrarsesion()">-Cerrar BODEGA-</a></li>
+                            </ul>
+                          </div>
+                        </li>
+                      </ul>
+                    </nav>
+                    <!-- <div class="search-holder"><button class="search-button"></button></div> -->
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+    <!-- - - - - - - - - - - - - end Header - - - - - - - - - - - - - - - -->
+
+    <!-- - - - - - - - - - - - - - Breadcrumbs - - - - - - - - - - - - - - - - -->
+
+    <div class="breadcrumbs-wrap data-grad-bg-bodega">
+
+      <div class="container">
+
+        <h1 class="page-title">Alerta Envíos</h1>
+
+        <ul class="breadcrumbs">
+
+          <li><a href="index.html">Home</a></li>
+          <li>Mis Alertas</li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- - - - - - - - - - - - - end Breadcrumbs - - - - - - - - - - - - - - - -->
+
+    <!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
+
+    <div id="content" class="with-separator-left sbl">
+
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Sidebar-->
+          <aside id="sidebar" class="col-md-2">
+
+            <!-- page-section -->
+            <div class="page-section">
+              <div class="team-member">
+                <div class="member-photo">
+                  <img src="images/300x300_member1.jpg" alt="">
+                </div>
+              </div><br><br>
+              <!-- widget -->
+              <div class="widget">
+
+                <h5 class="widget-title">Categorias</h5>
+                <ul class="info-links">
+                  <li><a href="perfil.html">Perfil</a></li>
+                  <li><a href="paquetes.html">Paquetes</a></li>
+                  <li><a href="alerta.html">Alertar Envíos</a></li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+
+          <!-- Main content -->
+          <main id="main" class="col-md-10">
+
+            <!-- page-section -->
+            <div class="page-section">
+
+              <div class="content-element" id="envio">
+                <div style="  display: flex;
+                flex-direction: unset;
+                justify-content: space-between;
+              " class="alert alert-info">
+                  <button type="button" class="close" data-dismiss="alert"></button>
+                  Hace falta que agregar un método de pago. <a href="perfil.html" class="btn">Agregar tarjeta</a>
+                </div>
+                <!-- - - - - - - - - - - - - Formulario - - - - - - - - - - - - - - - -->
+                <div class="page-section">
+
+                  <div class="container">
+
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h2 class="section-title">Información general del transporte</h2>
+                        <p class="section-pre-title">Déjenos saber si a hecho una compra y tiene un paquete en camino a
+                          nuestras bodegas, de esta forma podemos ayudale en cada etapa del proceso. </p><br>
+                        <form class="form-style1 fx-cols-2" id="formAlerta">
+                          <div class="form-column">
+                            <label class="required">Compañia transportadora</label>
+                            <select class="custom-select" id="idCarrier" required>
+                              <option value='' selected>Seleccione una opcion</option>
+                              <option value='1'>USPS</option>
+                              <option value='2'>Fedex</option>
+                              <option value='3'>Amazon</option>
+                              <option value='4'>UPS</option>
+                              <option value='5'>DHL</option>
+                              <option value='6'>Otro</option>
+                            </select>
+                            <!-- <label class="required">Correo electrónico </label>
+                           <input type="text" placeholder="leonardo.medina@auropaq.com" disabled> -->
+                          </div>
+                          <div class="form-column">
+                            <label tipe class="required">Número de carrier</label>
+                            <input type="text" placeholder="BC45678494XD" id="trackingNumber" minlength="6"
+                              maxlength="100" required>
+                          </div>
+                          <div class="form-column">
+                            <label tipe class="required">Direccion de destino</label>
+                            <select id="direcciones" name="direcciones" class="custom-select" required>
+                              <option value="">Seleccione una direcciòn</option>
+                            </select>
+                          </div>
+                          <div class="form-column">
+                            <label tipe class="required">Nombre destino</label>
+                            <input type="text" id="destinatario" name="destinatario" placeholder="Nombre completo"
+                              maxlength="100" required>
+                          </div>
+                          <div class="form-column-full">
+                            <h2 class="section-title">Información del producto </h2>
+                          </div>
+                          <div class="form-column-full">
+                            <p class="section-pre-title">Dejenos conocer más del/los producto(s) que compro. </p>
+                          </div>
+                          <div class="form-column">
+                            <label class="required">Producto comprado</label>
+                            <input type="text" id="descripcion" name="descripcion"
+                              placeholder="Describa el producto comprado" maxlength="100" required>
+                          </div>
+                          <div class="form-column">
+                            <label tipe class="required">Valor del Producto</label>
+                            <input type="number" id="Valor" name="Valor" placeholder="USD 0.00" required>
+                          </div>
+                          <div class="form-column-full">
+                            <label>
+                              Categoria del prodcuto * </label>
+                            <select class="custom-select" id="posicionArancelaria" name="posicionArancelaria" required>
+                              <option value="9807200000" selected>Otros envíos Urgentes </option>
+                              <option value="6114909000">Ropa</option>
+                              <option value="8471300000">Tecnología</option>
+                              <option value="8522905000">Otras categorias</option>
+                            </select>
+                          </div>
+                          <div style="display: grid;" class="form-column">
+                            <label>Adjuntar factura de compra (opcional)</label>
+                            <input class="hidden" id="ImageUrl" type="file" onchange="validarExtencion()"><br>
+                            <button class="btn btn-primary" type="submit" onclick="grabarClick()">Cargar</button>
+                            <!-- <input class="hidden" type="file"><br>
+                            <button class="btn btn-primary" type="button" onclick="getFile()">Cargar</button> -->
+                            <spam>
+                              * Utilice archivos en formato: .gif, .jpg, .png para adjuntar la
+                              factura.<br>
+                              * Utilice archivos con un tamaño NO superior a 5 MB.</spam>
+                            <spam><b>*De no estar seguro de su factura por favor NO adjunte
+                                el archivos</spam>
+                          </div>
+                          <!-- <div class="form-column-full">
+                            <label>Tracking transportista</label>
+                            <input type="number" placeholder="TBA176914895601">
+                          </div> -->
+                        </form><br>
+
+                      </div>
+                      <!-- <div class="col-md-10">
+
+                        <h2 class="section-title">Información del producto </h2>
+                        <p class="section-pre-title">Dejenos conocer más del/los producto(s) que compro. </p><br>
+                        <form class="form-style1 fx-cols-2">
+
+                          <div class="form-column">
+                            <label class="required">Producto comprado</label>
+                            <input type="text" id="descripcion" name="descripcion"
+                              placeholder="Describa el producto comprado" maxlength="100" required>
+                          </div>
+                          <div class="form-column">
+                            <label tipe class="required">Valor del Producto</label>
+                            <input type="number" id="Valor" name="Valor" placeholder="USD 0.00" required>
+                          </div>
+                          <div class="form-column-full">
+                            <label>
+                              Categoria del prodcuto * </label>
+                            <select class="custom-select" id="posicionArancelaria" name="posicionArancelaria" required>
+                              <option value="9807200000" selected>Otros envíos Urgentes </option>
+                              <option value="6114909000">Ropa</option>
+                              <option value="8471300000">Tecnología</option>
+                              <option value="8522905000">Otras categorias</option>
+                            </select>
+                          </div>
+                          <div style="display: grid;" class="form-column">
+                            <label>Adjuntar factura de compra (opcional)</label>
+                            <input class="hidden" id="ImageUrl" type="file" onchange="validarExtencion()"><br>
+                            <button class="btn btn-primary" type="submit" onclick="grabarClick()">Cargar</button>
+                            <spam>
+                              * Utilice archivos en formato: .gif, .jpg, .png para adjuntar la
+                              factura.<br>
+                              * Utilice archivos con un tamaño NO superior a 5 MB.</spam>
+                            <spam><b>*De no estar seguro de su factura por favor NO adjunte
+                                el archivos</spam>
+                          </div>
+                        </form>
+                        <br>
+
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                <!-- - - - - - - - - - - - - - Content - - - - - - - - - - - - - - - - -->
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- - - - - - - - - - - - - end Content - - - - - - - - - - - - - - - -->
+
+    <!-- - - - - - - - - - - - - - Footer - - - - - - - - - - - - - - - - -->
+
+    <footer id="footer" class="footer">
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-xs-6">
+              <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+              <div class="widget">
+                <img style="margin-bottom: 2rem;" src="images/logo_white.png" alt="logístico">
+                <p>Nuestro compromiso es suplir sus requerimiento y expectativas, para contribuir al desarrollo comercial de la empresas y del país.
+                </p>
+              <!-- - - - - - - - - - - - - - End of Widget - - - - - - - - - - - - - - - - -->
+            </div>
+
+            <div class="col-md-6 col-xs-6">
+              <!-- - - - - - - - - - - - - - Widget - - - - - - - - - - - - - - - - -->
+              <div class="widget">
+                <h6 class="widget-title">Contáctenos</h6>
+                <p>NWBox<br>
+                  Av.eldorado 96j-66 <br>
+                  Oficina 318</p>
+
+                  <ul class="contact-info">
+
+                    <li><span class="licon-telephone"></span> <a href="callto:18005596580"><br />Principal: +57 311 335
+                        9603 <span style="color: #E46827;">| </span>
+                        Whatsapp +57 313 455 4630 | +57 324 357 7813</a></li>
+                    <li><span class="licon-at-sign"></span> <a href="mailto:comercial@nwbox.co">
+                        <spam style="color: #E46827;">comercial@nwbox.co </spam>
+                      </a></li>
+  
+                  </ul>
+                <ul class="social-icons">
+
+                  <li><a style="color: #E46827;font-size:large;" href="#">* TERMINOS Y CONDICIONES</a></li>
+                  <li><a style="color: #E46827;font-size:large;" href="faq.html">* PREGUNTAS FRECUENTES</a></li>
+                  <li><a style="color: #E46827;font-size:large;" href="#">* PRODUCTOS RESTRINGIDOS</a></li>
+                  <!-- <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li> -->
+
+                </ul>
+              </div>
+              <!-- - - - - - - - - - - - - - End of Widget - - - - - - - - - - - - - - - - -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <hr class="item-divider">
+      <!-- - - - - - - - - - - - - - Copyright - - - - - - - - - - - - - - - - -->
+      <div class="copyright">
+
+        <div class="container">
+
+          <div class="table-row">
+
+            <div class="col-sm-4">
+              <spam style="font-size: 18px;">NWBox</span> Copyright © 2018-2022
+            </div>
+            <div class="col-sm-8">
+
+              <ul class="info-links h-type">
+
+                <li><a style="color: #E46827;font-size:large;" href="terminos.html">* TERMINOS Y CONDICIONES</a></li>
+                <li><a style="color: #E46827;font-size:large;" href="faq.html">* PREGUNTAS FRECUENTES</a></li>
+                <li><a style="color: #E46827;font-size:large;" href="restringidos.html">* PRODUCTOS RESTRINGIDOS</a>
+                </li>
+                <!-- <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sitemap</a></li> -->
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- - - - - - - - - - - - - - End Copyright - - - - - - - - - - - - - - - - -->
+    </footer>
+    <!-- - - - - - - - - - - - - end Footer - - - - - - - - - - - - - - - -->
+  </div>
+
+  <!-- - - - - - - - - - - - end Wrapper - - - - - - - - - - - - - - -->
+
+  <!-- JS Libs & Plugins
+  ============================================ -->
+  <script src="js/libs/jquery.modernizr.js"></script>
+  <script src="js/libs/jquery-2.2.4.min.js"></script>
+  <script src="js/libs/jquery.validate.js"></script>
+  <script src="js/libs/jquery-ui.min.js"></script>
+  <script src="js/libs/retina.min.js"></script>
+  <script src="plugins/jquery.scrollTo.min.js"></script>
+  <script src="plugins/jquery.localScroll.min.js"></script>
+  <script src="plugins/jquery.queryloader2.min.js"></script>
+  <script src="plugins/owl.carousel.min.js"></script>
+  <script src="plugins/jquery.fancybox.js"></script>
+  <script src="plugins/twitter/jquery.tweet.min.js"></script>
+  <script src="plugins/elevatezoom.min.js"></script>
+
+  <script src="plugins/bootstrap.js"></script>
+
+
+  <!-- JS theme files
+  ============================================ -->
+  <script src="js/plugins.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/fivepaq.js"></script>
+
+  <script>
+    function cerrarsesion() {
+      fivepaq.logOut();
+      location.href = "index.html";
+    }
+    var dataout = fivepaq.dataOut();
+
+    if (dataout == null || dataout.L !== true) {
+      location.href = "index.html";
+    }
+
+    $("#nombreCliente").html(dataout.U);
+    $("#numCasillero").html(dataout.N);
+
+    function grabarClick() {
+      $('form[id="formAlerta"]').validate({
+        ignore: ".ignore",
+        submitHandler: function (form) {
+          var dataout = JSON.parse(sessionStorage.getItem('appData'));
+          var fil = JSON.parse(sessionStorage.getItem('file'));
+          console.log(fil);
+          var datos = {
+            clientID: dataout.C,
+            trackingNumber: $("#trackingNumber").val(),
+            idCarrier: $("#idCarrier").val(),
+            idLocation: $("#direcciones").val(),
+            destinatario: $("#destinatario").val(),
+            TariffCode: $("#posicionArancelaria").val(),
+            description: $("#descripcion").val(),
+            value: $("#Valor").val().replace(",", ".")
+          };
+
+          if (document.getElementById('ImageUrl').value == "") {
+            fivepaq.prealertaValue(datos.clientID,
+              datos.trackingNumber, datos.idCarrier, datos.idLocation, datos.TariffCode, datos.description,
+              datos.value);
+          } else {
+            fivepaq.prealertaImage(datos.clientID,
+              datos.trackingNumber, datos.idCarrier, datos.idLocation, datos.TariffCode, datos.description);
+          }
+        }
+      });
+    }
+
+    function validarExtencion() {
+      let fileInput = (document.getElementById('ImageUrl')).value;
+      let fileName = document.getElementById('ImageUrl').files[0].name;
+      let extPermitidas = /(.jpg|.png|.jpeg|.gif|.pdf)$/i;
+      if (!extPermitidas.exec(fileInput)) {
+        console.log('Extension invalida')
+        Swal.fire({
+          title: 'Extension invalida!',
+          text: 'Valida que el archivo sea extension .jpg, .png, .gif, .pdf',
+          icon: 'error',
+          confirmButtonText: 'Ok',
+          type: 'error'
+        })
+      } else {
+
+      }
+      document.getElementById("fileName").setAttribute("placeholder", fileName);
+    }
+
+    function DireccionesOk(data) {
+      $.each(data, function (i, item) {
+        $('#direcciones').append(
+          '<option value="' + data[i].idLocation + '">' + data[i].direccion + '</option>'
+        )
+      });
+    }
+
+    function AlertSuccessImage(response) {
+      $('#formAlerta').trigger("reset");
+      Swal.fire(
+        '¡Se Alerto tu paquete! \n Con el Numero: ' + response.PreAlertId + ' ¡Guardalo!',
+        '¡Nosotros nos encargamos!',
+        'success'
+      );
+    }
+
+    function AlertSuccessValue(response) {
+      $('#formAlerta').trigger("reset");
+      Swal.fire(
+        '¡Se Alerto tu paquete! \n Con el Numero: ' + response.PreAlertId + ' ¡Guardalo!',
+        '¡Nosotros nos encargamos!',
+        'success'
+      );
+    }
+
+    function limpiarAlerta() {
+      $('#idCarrier').val('');
+      $('#trackingNumber').val('');
+      $('#direcciones').val('');
+      $('#destinatario').val('');
+      $('#posicionArancelaria').val('');
+      $('#descripcion').val('');
+      $('#Valor').val('');
+      $('#ImageUrl').val('');
+    }
+
+    fivepaq.cargarDireccionesCliente();
+  </script>
+</body>
+
+</html>
